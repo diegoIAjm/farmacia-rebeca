@@ -25,3 +25,26 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+
+# Dumps locales (NO subir credenciales)
+/database/dumps/*.sql
+!/database/dumps/.gitkeep
+
+# Caché de herramientas
+/.eslintcache
+/.styleci.yml
+.php-cs-fixer.cache
+
+# Testing
+/coverage
+/.phpunit.cache
+
+# Env locales adicionales
+.env.local
+.env.testing
+.env.staging
